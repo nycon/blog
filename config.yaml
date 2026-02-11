@@ -1,6 +1,6 @@
 baseURL: "https://nycon.github.io/"
 languageCode: de
-title: "Mein Blog"
+title: "My Blog"
 theme: aafu
 
 build:
@@ -8,7 +8,7 @@ build:
 
 params:
   author: "nycon"
-  description: "Mein persönlicher Blog"
+  description: "Marco S. - Senior System Engineer"
   copyright: "powered by [hugo](https://gohugo.io/)"
   theme:
     mainTheme: null  # null = auto, "light" oder "dark"
@@ -22,7 +22,7 @@ params:
       expand: true
     - item: experiences
     #- item: education
-    - item: projects
+    #- item: projects
     - item: skills
       panel_id: skill-panel
     - item: hobbies

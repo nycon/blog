@@ -8,5 +8,10 @@
     "icon": "bi bi-github",
     "url": "https://github.com/nycon",
     "title": "GitHub"
+  },
+  {
+    "icon": "bi bi-envelope",
+    "url": "mailto:marco.stoeckle@swisspro.ch",
+    "title": "Email"
   }
 ]
