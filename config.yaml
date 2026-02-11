@@ -1,0 +1,38 @@
+baseURL: "https://nycon.github.io/blog/"
+languageCode: de
+title: "Mein Blog"
+theme: aafu
+
+build:
+  writeStats: true
+
+params:
+  author: "nycon"
+  description: "Mein persönlicher Blog"
+  copyright: "powered by [hugo](https://gohugo.io/)"
+  theme:
+    mainTheme: null  # null = auto, "light" oder "dark"
+    showAttribute: true
+    singlePage: false
+
+  # Accordion-Sektionen auf der Startseite
+  # Jeder "item"-Wert muss einer JSON-Datei in data/ entsprechen
+  accordion:
+    - item: about_me
+      expand: true
+    - item: experiences
+    - item: education
+    - item: projects
+    - item: skills
+      panel_id: skill-panel
+    - item: hobbies
+
+# Image-Cache für GitHub Pages
+caches:
+  images:
+    dir: ":cacheDir/images"
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true

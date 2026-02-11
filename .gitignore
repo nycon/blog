@@ -1,0 +1,21 @@
+# Hugo build output
+public/
+resources/_gen/
+
+# Hugo cache
+hugo_cache/
+
+# Node modules
+node_modules/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+*~
+
+# Setup-Script (nicht mehr nötig nach Ausführung)
+setup-hugo-ghpages.sh
