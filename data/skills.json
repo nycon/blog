@@ -4,16 +4,28 @@
   "icon": "bi bi-list-check",
   "list": [
     {
-      "skill": "Skill 1, Skill 2",
-      "skillrating": 90
-    },
-    {
-      "skill": "Skill 3",
+      "skill": "bash",
       "skillrating": 80
     },
     {
-      "skill": "Skill 4",
-      "skillrating": 50
+      "skill": "Python",
+      "skillrating": 20
+    },
+    {
+      "skill": "Git",
+      "skillrating": 60
+    },
+    {
+      "skill": "Linux",
+      "skillrating": 100
+    },
+    {
+      "skill": "Docker",
+      "skillrating": 60
+    },
+    {
+      "skill": "Kubernetes",
+      "skillrating": 60
     }
   ]
 }

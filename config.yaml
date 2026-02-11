@@ -21,7 +21,7 @@ params:
     - item: about_me
       expand: true
     - item: experiences
-    - item: education
+    #- item: education
     - item: projects
     - item: skills
       panel_id: skill-panel
